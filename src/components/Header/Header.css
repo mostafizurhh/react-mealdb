@@ -1,0 +1,47 @@
+/* smaller device */
+@media screen and(max-width:576px) {
+    .header {
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.868);
+    }
+
+    img {
+        width: 20%;
+    }
+
+    .header a {
+        text-decoration: none;
+        color: white;
+        padding-right: 20px;
+    }
+}
+
+/* medium and larger device */
+@media screen and(min-width:576px) and(max-width:1200px) {
+    .header {
+        background-color: rgba(0, 0, 0, 0.868);
+        height: 80px;
+        color: white;
+        position: sticky;
+        top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 20%;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        color: coral;
+    }
+
+    .header a {
+        text-decoration: none;
+        color: white;
+        padding-right: 20px;
+    }
+}
