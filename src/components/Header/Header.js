@@ -9,6 +9,7 @@ const Header = () => {
                 <div className='banner'>
                     <img src={logo} alt="" />
                     <p>The Meal DB</p>
+                    <img src={logo} alt="" />
                 </div>
                 <div>
                     <a href="./home">Home</a>

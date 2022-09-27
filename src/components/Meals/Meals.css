@@ -1,0 +1,31 @@
+.meals img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.meals {
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    position: relative;
+}
+
+button {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    border: 2px solid blueviolet;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.btn-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.btn-cart p {
+    margin: 0%;
+    padding: 5px;
+}
