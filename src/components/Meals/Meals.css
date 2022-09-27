@@ -11,10 +11,11 @@
 
 button {
     position: absolute;
-    bottom: 0%;
-    width: 100%;
+    bottom: -.1%;
+    left: -.1%;
+    width: 100.5%;
     border: 1px solid blueviolet;
-    border-radius: 0px 0px 6px 6px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .btn-cart {
