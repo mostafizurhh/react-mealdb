@@ -11,7 +11,7 @@ const Meals = (props) => {
             <div style={{ padding: 5, marginBottom: 20 }}>
                 <img src={strMealThumb} alt="" />
                 <p>{strMeal}</p>
-                <p>Instructions: {strInstructions.slice(0, 200)}</p>
+                <p style={{ whiteSpace: 'nowrap', textOverflow: 'ellipsis', overflow: 'hidden', width: 200 }}>Instructions: {strInstructions}</p>
             </div>
             <button onClick={() => props.handleAddToCart(props.meal)} className='btn-cart'>
                 <p>Add To Cart</p>
